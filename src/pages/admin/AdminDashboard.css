@@ -10,7 +10,7 @@
 .admin-sidebar {
   width: 280px;
   background: #1a1a1a;
-  border-right: 1px solid rgba(0, 255, 136, 0.2);
+  border-right: 1px solid rgba(255, 165, 0, 0.2);
   display: flex;
   flex-direction: column;
   position: fixed;
@@ -37,7 +37,7 @@
   display: flex;
   align-items: center;
   gap: 0.8rem;
-  color: #00ff88;
+  color: #ffa500;
   text-decoration: none;
   font-weight: 600;
   font-size: 1.1rem;
@@ -83,15 +83,15 @@
 }
 
 .nav-item:hover {
-  background: rgba(0, 255, 136, 0.05);
+  background: rgba(255, 165, 0, 0.05);
   color: #ffffff;
-  border-left-color: rgba(0, 255, 136, 0.3);
+  border-left-color: rgba(255, 165, 0, 0.3);
 }
 
 .nav-item.active {
-  background: rgba(0, 255, 136, 0.1);
-  color: #00ff88;
-  border-left-color: #00ff88;
+  background: rgba(255, 165, 0, 0.1);
+  color: #ffa500;
+  border-left-color: #ffa500;
 }
 
 .nav-item svg {
@@ -179,7 +179,7 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  color: #00ff88;
+  color: #ffa500;
   text-decoration: none;
   padding: 0.5rem 1rem;
   border-radius: 6px;
@@ -188,7 +188,7 @@
 }
 
 .site-link:hover {
-  background: rgba(0, 255, 136, 0.1);
+  background: rgba(255, 165, 0, 0.1);
   color: #ffffff;
 }
 

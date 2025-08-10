@@ -21,9 +21,9 @@
 }
 
 .back-button:hover {
-  background: rgba(0, 255, 136, 0.1);
-  border-color: #00ff88;
-  color: #00ff88;
+  background: rgba(255, 165, 0, 0.1);
+  border-color: #ffa500;
+  color: #ffa500;
 }
 
 .product-content {
@@ -53,7 +53,7 @@
   align-items: center;
   justify-content: center;
   font-size: 6rem;
-  color: #00ff88;
+  color: #ffa500;
   cursor: pointer;
 }
 
@@ -76,12 +76,12 @@
   align-items: center;
   justify-content: center;
   font-size: 1.5rem;
-  color: #00ff88;
+  color: #ffa500;
 }
 
 .thumbnail:hover,
 .thumbnail.active {
-  border-color: #00ff88;
+  border-color: #ffa500;
 }
 
 /* Новые стили для галереи */
@@ -131,7 +131,7 @@
 }
 
 .nav-button:hover:not(:disabled) {
-  background: rgba(0, 255, 136, 0.8);
+  background: rgba(255, 165, 0, 0.8);
   color: #000;
   transform: scale(1.1);
 }
@@ -192,8 +192,8 @@
 }
 
 .brand {
-  background: rgba(0, 255, 136, 0.1);
-  color: #00ff88;
+  background: rgba(255, 165, 0, 0.1);
+  color: #ffa500;
   padding: 0.4rem 0.8rem;
   border-radius: 15px;
   font-size: 0.9rem;
@@ -217,7 +217,7 @@
 }
 
 .availability.in-stock {
-  color: #00ff88;
+  color: #ffa500;
 }
 
 .availability.out-of-stock {
@@ -231,7 +231,7 @@
 .current-price {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #00ff88;
+  color: #ffa500;
 }
 
 .original-price {
@@ -253,7 +253,7 @@
 }
 
 .product-features h3 {
-  color: #00ff88;
+  color: #ffa500;
   margin-bottom: 1rem;
   font-size: 1.3rem;
 }
@@ -274,7 +274,7 @@
   content: "✓";
   position: absolute;
   left: 0;
-  color: #00ff88;
+  color: #ffa500;
   font-weight: bold;
 }
 
@@ -316,8 +316,8 @@
 }
 
 .quantity-controls button:hover:not(:disabled) {
-  background: rgba(0, 255, 136, 0.1);
-  color: #00ff88;
+  background: rgba(255, 165, 0, 0.1);
+  color: #ffa500;
 }
 
 .quantity-controls button:disabled {
@@ -373,24 +373,24 @@
 }
 
 .add-to-cart-btn {
-  background: rgba(0, 255, 136, 0.1);
-  color: #00ff88;
-  border: 2px solid #00ff88;
+  background: rgba(255, 165, 0, 0.1);
+  color: #ffa500;
+  border: 2px solid #ffa500;
 }
 
 .add-to-cart-btn:hover:not(:disabled) {
-  background: #00ff88;
+  background: #ffa500;
   color: #000000;
 }
 
 .buy-now-btn {
-  background: linear-gradient(135deg, #00ff88 0%, #00cc6a 100%);
+  background: linear-gradient(135deg, #ffa500 0%, #cc8400 100%);
   color: #000000;
 }
 
 .buy-now-btn:hover:not(:disabled) {
   transform: translateY(-2px);
-  box-shadow: 0 15px 40px rgba(0, 255, 136, 0.4);
+  box-shadow: 0 15px 40px rgba(255, 165, 0, 0.4);
 }
 
 .add-to-cart-btn:disabled,
@@ -407,7 +407,7 @@
 }
 
 .product-specifications h3 {
-  color: #00ff88;
+  color: #ffa500;
   margin-bottom: 2rem;
   font-size: 1.5rem;
   font-weight: 600;

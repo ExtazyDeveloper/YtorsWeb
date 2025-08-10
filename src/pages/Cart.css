@@ -61,8 +61,8 @@
 }
 
 .cart-item:hover {
-  border-color: #00ff88;
-  background: rgba(0, 255, 136, 0.05);
+  border-color: #ffa500;
+  background: rgba(255, 165, 0, 0.05);
 }
 
 .item-image {
@@ -78,7 +78,7 @@
 
 .item-icon {
   font-size: 2rem;
-  color: #00ff88;
+  color: #ffa500;
 }
 
 .item-image-img {
@@ -106,7 +106,7 @@
 }
 
 .item-price {
-  color: #00ff88;
+  color: #ffa500;
   font-weight: 600;
   font-size: 1.1rem;
 }
@@ -141,8 +141,8 @@
 }
 
 .quantity-btn:hover:not(:disabled) {
-  background: rgba(0, 255, 136, 0.1);
-  color: #00ff88;
+  background: rgba(255, 165, 0, 0.1);
+  color: #ffa500;
 }
 
 .quantity-btn:disabled {
@@ -175,8 +175,8 @@
 
 .quantity-input:focus {
   background: rgba(255, 255, 255, 0.1);
-  border-color: #00ff88;
-  box-shadow: 0 0 0 2px rgba(0, 255, 136, 0.2);
+  border-color: #ffa500;
+  box-shadow: 0 0 0 2px rgba(255, 165, 0, 0.2);
 }
 
 .quantity-input::-webkit-outer-spin-button,
@@ -192,7 +192,7 @@
 .item-total {
   font-weight: 700;
   font-size: 1.2rem;
-  color: #00ff88;
+  color: #ffa500;
   min-width: 120px;
   text-align: right;
 }
@@ -234,7 +234,7 @@
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: 1.5rem;
-  color: #00ff88;
+  color: #ffa500;
 }
 
 .summary-line {
@@ -259,7 +259,7 @@
 
 .checkout-btn {
   width: 100%;
-  background: linear-gradient(135deg, #00ff88 0%, #00cc6a 100%);
+  background: linear-gradient(135deg, #ffa500 0%, #cc8400 100%);
   color: #000000;
   border: none;
   padding: 1.2rem;
@@ -273,7 +273,7 @@
 
 .checkout-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 15px 40px rgba(0, 255, 136, 0.4);
+  box-shadow: 0 15px 40px rgba(255, 165, 0, 0.4);
 }
 
 .empty-cart {
@@ -301,7 +301,7 @@
 }
 
 .continue-shopping-btn {
-  background: linear-gradient(135deg, #00ff88 0%, #00cc6a 100%);
+  background: linear-gradient(135deg, #ffa500 0%, #cc8400 100%);
   color: #000000;
   text-decoration: none;
   padding: 1rem 2rem;
@@ -313,7 +313,7 @@
 
 .continue-shopping-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 15px 40px rgba(0, 255, 136, 0.4);
+  box-shadow: 0 15px 40px rgba(255, 165, 0, 0.4);
 }
 
 /* Модальное окно оформления заказа */
@@ -347,7 +347,7 @@
   font-size: 1.8rem;
   font-weight: 600;
   margin-bottom: 2rem;
-  color: #00ff88;
+  color: #ffa500;
   text-align: center;
 }
 
@@ -384,7 +384,7 @@
 .form-group select:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #00ff88;
+  border-color: #ffa500;
   color: #ffffff !important;
 }
 
@@ -414,7 +414,7 @@
 }
 
 .order-summary h4 {
-  color: #00ff88;
+  color: #ffa500;
   margin-bottom: 1rem;
 }
 
@@ -466,13 +466,13 @@
 }
 
 .submit-btn {
-  background: linear-gradient(135deg, #00ff88 0%, #00cc6a 100%);
+  background: linear-gradient(135deg, #ffa500 0%, #cc8400 100%);
   color: #000000;
 }
 
 .submit-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 30px rgba(0, 255, 136, 0.3);
+  box-shadow: 0 10px 30px rgba(255, 165, 0, 0.3);
 }
 
 /* Адаптивность */
@@ -524,7 +524,7 @@
 
 /* Стили для скидок */
 .discount-line {
-  color: #00ff88 !important;
+  color: #ffa500 !important;
 }
 
 .discount-line .discount-icon {
@@ -532,7 +532,7 @@
 }
 
 .discount-amount {
-  color: #00ff88 !important;
+  color: #ffa500 !important;
   font-weight: 600;
 }
 
@@ -541,23 +541,23 @@
   align-items: center;
   gap: 0.5rem;
   padding: 0.5rem;
-  background: rgba(0, 255, 136, 0.1);
+  background: rgba(255, 165, 0, 0.1);
   border-radius: 8px;
   margin-top: 1rem;
-  color: #00ff88;
+  color: #ffa500;
   font-size: 0.9rem;
 }
 
 .promo-icon {
-  color: #00ff88;
+  color: #ffa500;
 }
 
 .discount-info {
   margin: 1rem 0;
   padding: 1rem;
-  background: rgba(0, 255, 136, 0.05);
+  background: rgba(255, 165, 0, 0.05);
   border-radius: 8px;
-  border-left: 3px solid #00ff88;
+  border-left: 3px solid #ffa500;
 }
 
 .discount-info .discount-line {
