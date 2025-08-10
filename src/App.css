@@ -201,6 +201,56 @@ html {
   line-height: 1.8;
 }
 
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.contact-button {
+  background: transparent;
+  color: #ffa500;
+  border: 2px solid #ffa500;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contact-button:hover {
+  background: rgba(255, 165, 0, 0.1);
+}
+
+.hero-search {
+  position: relative;
+  max-width: 400px;
+}
+
+.hero-search input {
+  width: 100%;
+  padding: 0.8rem 1rem 0.8rem 2.5rem;
+  border: 1px solid #ffa500;
+  border-radius: 50px;
+  background: #111111;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.hero-search input::placeholder {
+  color: #999999;
+}
+
+.hero-search .search-icon {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #ffa500;
+}
+
 .cta-button {
   background: linear-gradient(135deg, #ffa500 0%, #cc8400 100%);
   color: #000000;

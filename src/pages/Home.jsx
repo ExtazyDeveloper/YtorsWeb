@@ -1,11 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { 
-  FaTruck, 
-  FaTools, 
-  FaShieldAlt, 
+import { Link, useNavigate } from 'react-router-dom';
+import {
+  FaTruck,
+  FaTools,
+  FaShieldAlt,
   FaArrowRight,
-  FaHeart
+  FaHeart,
+  FaSearch
 } from 'react-icons/fa';
 import { useAdminData } from '../context/AdminDataContext';
 import { useWishlist } from '../context/WishlistContext';
@@ -14,6 +15,21 @@ import { getMainImage } from '../utils/imageHelpers';
 function Home() {
   const { products, popularProductIds } = useAdminData();
   const { toggleWishlist, isInWishlist } = useWishlist();
+  const navigate = useNavigate();
+
+  const openSearchModal = () => {
+    window.dispatchEvent(new Event('openSearchModal'));
+  };
+
+  const handleContactClick = () => {
+    navigate('/about');
+    setTimeout(() => {
+      const contactsSection = document.querySelector('.contacts-section');
+      if (contactsSection) {
+        contactsSection.scrollIntoView({ behavior: 'smooth' });
+      }
+    }, 100);
+  };
   
   const handleToggleWishlist = (productId, e) => {
     e.preventDefault();
@@ -98,13 +114,27 @@ function Home() {
             <div className="hero-text">
               <h1>Запчасти для вездеходов</h1>
               <p>
-                Качественные запчасти для всех типов вездеходов. 
+                Качественные запчасти для всех типов вездеходов.
                 Быстрая доставка по всей России. Гарантия качества на все товары.
               </p>
-              <Link to="/catalog" className="cta-button">
-                Перейти в каталог
-                <FaArrowRight />
-              </Link>
+              <div className="hero-buttons">
+                <Link to="/catalog" className="cta-button">
+                  Перейти в каталог
+                  <FaArrowRight />
+                </Link>
+                <button className="contact-button" onClick={handleContactClick}>
+                  Связаться с менеджером
+                </button>
+              </div>
+              <div className="hero-search">
+                <FaSearch className="search-icon" />
+                <input
+                  type="text"
+                  placeholder="Поиск по каталогу"
+                  readOnly
+                  onClick={openSearchModal}
+                />
+              </div>
             </div>
             <div className="hero-image">
               <div className="hero-placeholder">
