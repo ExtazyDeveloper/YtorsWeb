@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Outlet, Link, useLocation, useNavigate } from 'react-router-dom';
 import { 
   FaTruck, 
@@ -25,6 +25,12 @@ function App() {
   const { aboutContent } = useAdminData();
   const { getWishlistCount } = useWishlist();
   const [isSearchModalOpen, setIsSearchModalOpen] = useState(false);
+
+  useEffect(() => {
+    const openSearch = () => setIsSearchModalOpen(true);
+    window.addEventListener('openSearchModal', openSearch);
+    return () => window.removeEventListener('openSearchModal', openSearch);
+  }, []);
   
   const footerData = aboutContent.footer || {
     aboutSection: {
