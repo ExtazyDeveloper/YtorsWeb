@@ -16,7 +16,7 @@
   font-size: 3rem;
   font-weight: 800;
   margin-bottom: 1.5rem;
-  background: linear-gradient(135deg, #ffffff 0%, #00ff88 100%);
+  background: linear-gradient(135deg, #ffffff 0%, #ffa500 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -54,7 +54,7 @@
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 3rem;
-  background: linear-gradient(135deg, #ffffff 0%, #00ff88 100%);
+  background: linear-gradient(135deg, #ffffff 0%, #ffa500 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -182,7 +182,7 @@
 }
 
 .promo-code {
-  color: #00ff88;
+  color: #ffa500;
   font-weight: 600;
 }
 
@@ -196,7 +196,7 @@
 }
 
 .promo-button {
-  background: linear-gradient(135deg, #00ff88 0%, #00cc6a 100%);
+  background: linear-gradient(135deg, #ffa500 0%, #cc8400 100%);
   color: #000000;
   text-decoration: none;
   padding: 0.8rem 1.5rem;
@@ -213,7 +213,7 @@
 
 .promo-button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 15px 30px rgba(0, 255, 136, 0.3);
+  box-shadow: 0 15px 30px rgba(255, 165, 0, 0.3);
 }
 
 /* Фильтры категорий */
@@ -241,9 +241,9 @@
 
 .filter-btn:hover,
 .filter-btn.active {
-  background: linear-gradient(135deg, #00ff88 0%, #00cc6a 100%);
+  background: linear-gradient(135deg, #ffa500 0%, #cc8400 100%);
   color: #000000;
-  border-color: #00ff88;
+  border-color: #ffa500;
 }
 
 /* Все акции */
@@ -255,7 +255,7 @@
 
 .promotions-page .promotion-card {
   background: rgba(40, 40, 40, 0.8) !important;
-  border: 1px solid rgba(0, 255, 136, 0.3) !important;
+  border: 1px solid rgba(255, 165, 0, 0.3) !important;
   border-radius: 15px;
   padding: 1.5rem;
   transition: all 0.3s ease;
@@ -263,10 +263,10 @@
 }
 
 .promotions-page .promotion-card:hover {
-  border-color: #00ff88 !important;
-  background: rgba(0, 255, 136, 0.1) !important;
+  border-color: #ffa500 !important;
+  background: rgba(255, 165, 0, 0.1) !important;
   transform: translateY(-3px);
-  box-shadow: 0 10px 25px rgba(0, 255, 136, 0.2);
+  box-shadow: 0 10px 25px rgba(255, 165, 0, 0.2);
 }
 
 .promotions-page .promo-header {
@@ -285,7 +285,7 @@
   align-items: center;
   justify-content: center;
   font-size: 1.8rem;
-  border: 2px solid rgba(0, 255, 136, 0.3);
+  border: 2px solid rgba(255, 165, 0, 0.3);
 }
 
 .discount-badge-small {
@@ -328,7 +328,7 @@
 }
 
 .promo-code-small {
-  color: #00ff88;
+  color: #ffa500;
   font-weight: 600;
 }
 
@@ -343,7 +343,7 @@
 }
 
 .promo-link {
-  color: #00ff88;
+  color: #ffa500;
   text-decoration: none;
   font-weight: 500;
   display: flex;
@@ -375,14 +375,14 @@
 }
 
 .step-card:hover {
-  border-color: #00ff88;
-  background: rgba(0, 255, 136, 0.05);
+  border-color: #ffa500;
+  background: rgba(255, 165, 0, 0.05);
 }
 
 .step-number {
   width: 60px;
   height: 60px;
-  background: linear-gradient(135deg, #00ff88 0%, #00cc6a 100%);
+  background: linear-gradient(135deg, #ffa500 0%, #cc8400 100%);
   color: #000000;
   border-radius: 50%;
   display: flex;
@@ -412,7 +412,7 @@
   padding: 60px 40px;
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.05)) !important;
   border-radius: 20px;
-  border: 2px dashed rgba(0, 255, 136, 0.3);
+  border: 2px dashed rgba(255, 165, 0, 0.3);
   margin: 20px 0;
   backdrop-filter: blur(10px);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
@@ -424,8 +424,8 @@
 }
 
 .promotions-page .no-promotions.category-empty {
-  background: linear-gradient(135deg, rgba(0, 255, 136, 0.15), rgba(0, 200, 100, 0.05)) !important;
-  border-color: rgba(0, 255, 136, 0.4);
+  background: linear-gradient(135deg, rgba(255, 165, 0, 0.15), rgba(0, 200, 100, 0.05)) !important;
+  border-color: rgba(255, 165, 0, 0.4);
 }
 
 .empty-content {
@@ -462,7 +462,7 @@
 }
 
 .view-all-btn {
-  background: linear-gradient(135deg, #00ff88, #00cc6a);
+  background: linear-gradient(135deg, #ffa500, #cc8400);
   color: #000000;
   border: none;
   padding: 12px 24px;
@@ -471,13 +471,13 @@
   cursor: pointer;
   margin-top: 1.5rem;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(0, 255, 136, 0.3);
+  box-shadow: 0 4px 15px rgba(255, 165, 0, 0.3);
 }
 
 .view-all-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(0, 255, 136, 0.4);
-  background: linear-gradient(135deg, #00cc6a, #00aa55);
+  box-shadow: 0 6px 20px rgba(255, 165, 0, 0.4);
+  background: linear-gradient(135deg, #cc8400, #00aa55);
 }
 
 @keyframes float {
@@ -486,12 +486,12 @@
 }
 
 .no-promotions strong {
-  color: #00ff88;
+  color: #ffa500;
 }
 
 .no-promotions button {
   margin-top: 20px;
-  background: linear-gradient(135deg, #00ff88 0%, #00cc6a 100%);
+  background: linear-gradient(135deg, #ffa500 0%, #cc8400 100%);
   color: #000;
   border: none;
   padding: 10px 20px;
@@ -503,7 +503,7 @@
 
 .no-promotions button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 20px rgba(0, 255, 136, 0.3);
+  box-shadow: 0 10px 20px rgba(255, 165, 0, 0.3);
 }
 
 /* Адаптивность */

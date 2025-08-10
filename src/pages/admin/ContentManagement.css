@@ -39,9 +39,9 @@
 }
 
 .tab.active {
-  color: #00ff88;
-  border-bottom-color: #00ff88;
-  background: rgba(0, 255, 136, 0.1);
+  color: #ffa500;
+  border-bottom-color: #ffa500;
+  background: rgba(255, 165, 0, 0.1);
 }
 
 /* Контент табов */
@@ -98,9 +98,9 @@
 .form-group input:focus,
 .form-group textarea:focus,
 .form-group select:focus {
-  border-color: #00ff88;
+  border-color: #ffa500;
   background: rgba(255, 255, 255, 0.1);
-  box-shadow: 0 0 0 2px rgba(0, 255, 136, 0.2);
+  box-shadow: 0 0 0 2px rgba(255, 165, 0, 0.2);
 }
 
 .form-group input::placeholder,
@@ -126,17 +126,17 @@
   align-items: center;
   gap: 0.5rem;
   padding: 0.75rem 1.5rem;
-  background: rgba(0, 255, 136, 0.1);
-  border: 1px solid #00ff88;
+  background: rgba(255, 165, 0, 0.1);
+  border: 1px solid #ffa500;
   border-radius: 8px;
-  color: #00ff88;
+  color: #ffa500;
   cursor: pointer;
   transition: all 0.3s ease;
   font-size: 0.9rem;
 }
 
 .add-btn:hover {
-  background: rgba(0, 255, 136, 0.2);
+  background: rgba(255, 165, 0, 0.2);
   transform: translateY(-2px);
 }
 
@@ -159,7 +159,7 @@
   align-items: center;
   gap: 0.5rem;
   padding: 1rem 2rem;
-  background: linear-gradient(135deg, #00ff88 0%, #00cc6a 100%);
+  background: linear-gradient(135deg, #ffa500 0%, #cc8400 100%);
   border: none;
   border-radius: 25px;
   color: #000000;
@@ -171,7 +171,7 @@
 
 .save-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 20px rgba(0, 255, 136, 0.3);
+  box-shadow: 0 10px 20px rgba(255, 165, 0, 0.3);
 }
 
 /* Элементы карточек */
@@ -191,8 +191,8 @@
 .why-choose-us-item:hover,
 .team-member-item:hover,
 .milestone-item:hover {
-  border-color: rgba(0, 255, 136, 0.3);
-  background: rgba(0, 255, 136, 0.05);
+  border-color: rgba(255, 165, 0, 0.3);
+  background: rgba(255, 165, 0, 0.05);
 }
 
 .advantage-header,
@@ -212,7 +212,7 @@
 .member-header span,
 .milestone-header span {
   font-weight: 600;
-  color: #00ff88;
+  color: #ffa500;
 }
 
 /* Загрузка фото */
@@ -250,7 +250,7 @@
 
 .upload-btn:hover {
   background: rgba(255, 255, 255, 0.1);
-  border-color: #00ff88;
+  border-color: #ffa500;
 }
 
 /* Действия формы */
@@ -280,9 +280,9 @@
 
 .footer-subsection h4,
 .footer-subsection h5 {
-  color: #00ff88;
+  color: #ffa500;
   margin-bottom: 1rem;
-  border-bottom: 1px solid rgba(0, 255, 136, 0.2);
+  border-bottom: 1px solid rgba(255, 165, 0, 0.2);
   padding-bottom: 0.5rem;
 }
 
@@ -309,7 +309,7 @@
 
 .link-header span {
   font-weight: 600;
-  color: #00ff88;
+  color: #ffa500;
 }
 
 /* Адаптивность */
